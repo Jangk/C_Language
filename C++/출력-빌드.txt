@@ -1,0 +1,5 @@
+﻿1>------ 빌드 시작: 프로젝트: C++, 구성: Debug Win32 ------
+1>  1112숙제.cpp
+1>  C++.vcxproj -> C:\Users\User\OneDrive\C++\C++\Debug\C++.exe
+1>  C++.vcxproj -> C:\Users\User\OneDrive\C++\C++\Debug\C++.pdb (Full PDB)
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========

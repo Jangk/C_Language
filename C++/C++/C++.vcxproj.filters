@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\문제코딩">
+      <UniqueIdentifier>{1821315f-52fa-4684-9a3a-4b3625a8c98e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\c++이론">
+      <UniqueIdentifier>{a9e7ad22-60ca-4781-a8fd-c64faed1b925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\학원수업">
+      <UniqueIdentifier>{da7b2b9a-440f-4a88-ac2f-a2c6ece49f88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\학원수업\내 코드">
+      <UniqueIdentifier>{39c531cb-1269-4786-b763-541480f85b53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\학원수업\C++">
+      <UniqueIdentifier>{e7c48d44-e52e-4a15-838a-082f002c70d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\학원수업\C">
+      <UniqueIdentifier>{aa945be5-1ebb-49d4-b762-a881d59bdf27}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="14.business.cpp">
+      <Filter>소스 파일\문제코딩</Filter>
+    </ClCompile>
+    <ClCompile Include="1.area.cpp">
+      <Filter>소스 파일\문제코딩</Filter>
+    </ClCompile>
+    <ClCompile Include="2.m2s.cpp">
+      <Filter>소스 파일\문제코딩</Filter>
+    </ClCompile>
+    <ClCompile Include="3.swap.cpp">
+      <Filter>소스 파일\문제코딩</Filter>
+    </ClCompile>
+    <ClCompile Include="4.op.cpp">
+      <Filter>소스 파일\문제코딩</Filter>
+    </ClCompile>
+    <ClCompile Include="5.triangle.cpp">
+      <Filter>소스 파일\문제코딩</Filter>
+    </ClCompile>
+    <ClCompile Include="6.average.cpp">
+      <Filter>소스 파일\문제코딩</Filter>
+    </ClCompile>
+    <ClCompile Include="7.CtoF.cpp">
+      <Filter>소스 파일\문제코딩</Filter>
+    </ClCompile>
+    <ClCompile Include="8.q_r.cpp">
+      <Filter>소스 파일\문제코딩</Filter>
+    </ClCompile>
+    <ClCompile Include="9.change.cpp">
+      <Filter>소스 파일\문제코딩</Filter>
+    </ClCompile>
+    <ClCompile Include="10.sec.cpp">
+      <Filter>소스 파일\문제코딩</Filter>
+    </ClCompile>
+    <ClCompile Include="11.three.cpp">
+      <Filter>소스 파일\문제코딩</Filter>
+    </ClCompile>
+    <ClCompile Include="12.koi_watch.cpp">
+      <Filter>소스 파일\문제코딩</Filter>
+    </ClCompile>
+    <ClCompile Include="13.empty_bottle.cpp">
+      <Filter>소스 파일\문제코딩</Filter>
+    </ClCompile>
+    <ClCompile Include="5.Construct.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="6.FunctionOverloading.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="4.OutPutType.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="7.OperatorOverloading.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="1.Referance.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="2.String.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="3.FileIO.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="8.DefaultFunctionDeleate.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="9.Parents.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="11.VirtualDestructor.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="10.Polymorphism.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="12.MultipleParents.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="13.Abstract.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="14.Interface.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="15.Casting.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="16.InlineFunction.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="17.Static_Keyword.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="18.ExceptionConstruct.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="19.Vector.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="20.Map.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="22.Queue.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="21.Set.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="23.Stack.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="24.List.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="25.Template.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="25_2.Template.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="26.Algorithm.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="27.Auto.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="28.Static_Assert.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="29.default_Delete.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="30.fianl_Override.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="31.offsetof.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="32.NewDataType.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="33.UnorderedMap.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="34.RangeforLoop.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="36.SharedPointer.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="37.WeakPointer.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="35.SmartPoint.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="38.Rvalue_MoveConstruct.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="39.Constexpr.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="40.Lambda.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="41.VariadicTemplate.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="42.FileSystem.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="43.Module.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="44.Threading.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="45.Condition_variable.cpp">
+      <Filter>소스 파일\c++이론</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C++\191127.cpp">
+      <Filter>소스 파일\학원수업\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C++\191127_2.cpp">
+      <Filter>소스 파일\학원수업\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C++\191127_3.cpp">
+      <Filter>소스 파일\학원수업\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C++\191127_4.cpp">
+      <Filter>소스 파일\학원수업\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C++\191127_5.cpp">
+      <Filter>소스 파일\학원수업\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191030.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191030_2.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191031.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191101.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191104.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191105.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191106_Homework_1 (1).cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191106_Homework_1 (2).cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191106_Homework_1 (3).cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191106_Homework_1 (4).cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191106_Homework_1 (5).cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191107.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191107_2.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191107_3.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191107_4.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191107_Homework_1.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191107_Homework_2.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191108.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191108_2.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191108_3.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191108_4.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191108_5.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191108_6.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191111.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191111_2.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191112.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191112_2.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191112_3.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191112_4.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191112_Homework_1.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191112_Homework_2.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191113.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191113_2.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191113_3.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191113_Homework_1.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191113_Homework_2.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191114.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191114_2.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191114_3.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191114_Homework.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191115.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191115_2.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191115_Homework.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191119.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191120.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191120_Homework.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191120_Homework_2.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191121.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191121_2.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C\191121_3.cpp">
+      <Filter>소스 파일\학원수업\C</Filter>
+    </ClCompile>
+    <ClCompile Include="1104숙제cpp.cpp">
+      <Filter>소스 파일\학원수업\내 코드</Filter>
+    </ClCompile>
+    <ClCompile Include="1105숙제.cpp">
+      <Filter>소스 파일\학원수업\내 코드</Filter>
+    </ClCompile>
+    <ClCompile Include="1106숙제.cpp">
+      <Filter>소스 파일\학원수업\내 코드</Filter>
+    </ClCompile>
+    <ClCompile Include="1107숙제.cpp">
+      <Filter>소스 파일\학원수업\내 코드</Filter>
+    </ClCompile>
+    <ClCompile Include="1108숙제.cpp">
+      <Filter>소스 파일\학원수업\내 코드</Filter>
+    </ClCompile>
+    <ClCompile Include="1111ConstPointer.cpp">
+      <Filter>소스 파일\학원수업\내 코드</Filter>
+    </ClCompile>
+    <ClCompile Include="1111숙제.cpp">
+      <Filter>소스 파일\학원수업\내 코드</Filter>
+    </ClCompile>
+    <ClCompile Include="1112FunctionPointer.cpp">
+      <Filter>소스 파일\학원수업\내 코드</Filter>
+    </ClCompile>
+    <ClCompile Include="1112숙제.cpp">
+      <Filter>소스 파일\학원수업\내 코드</Filter>
+    </ClCompile>
+    <ClCompile Include="1113StringFunction.cpp">
+      <Filter>소스 파일\학원수업\내 코드</Filter>
+    </ClCompile>
+    <ClCompile Include="1113숙제.cpp">
+      <Filter>소스 파일\학원수업\내 코드</Filter>
+    </ClCompile>
+    <ClCompile Include="1114.cpp">
+      <Filter>소스 파일\학원수업\내 코드</Filter>
+    </ClCompile>
+    <ClCompile Include="1114숙제.cpp">
+      <Filter>소스 파일\학원수업\내 코드</Filter>
+    </ClCompile>
+    <ClCompile Include="1115Memory.cpp">
+      <Filter>소스 파일\학원수업\내 코드</Filter>
+    </ClCompile>
+    <ClCompile Include="1115숙제.cpp">
+      <Filter>소스 파일\학원수업\내 코드</Filter>
+    </ClCompile>
+    <ClCompile Include="1119FileIO.cpp">
+      <Filter>소스 파일\학원수업\내 코드</Filter>
+    </ClCompile>
+    <ClCompile Include="1119숙제1.cpp">
+      <Filter>소스 파일\학원수업\내 코드</Filter>
+    </ClCompile>
+    <ClCompile Include="1119숙제2.cpp">
+      <Filter>소스 파일\학원수업\내 코드</Filter>
+    </ClCompile>
+    <ClCompile Include="1120File.cpp">
+      <Filter>소스 파일\학원수업\내 코드</Filter>
+    </ClCompile>
+    <ClCompile Include="--------1127-------">
+      <Filter>소스 파일\학원수업\내 코드</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C++\191128.cpp">
+      <Filter>소스 파일\학원수업\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C++\191128_2.cpp">
+      <Filter>소스 파일\학원수업\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="1129과제.cpp">
+      <Filter>소스 파일\학원수업\내 코드</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C++\191129.cpp">
+      <Filter>소스 파일\학원수업\C++</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="26.----------keyword">
+      <Filter>소스 파일\c++이론</Filter>
+    </None>
+  </ItemGroup>
+</Project>
