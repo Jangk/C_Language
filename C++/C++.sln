@@ -9,7 +9,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1128_과제_ScoreBoard", "1
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test", "Test\Test.vcxproj", "{03BC4524-7468-46D8-94B9-4CD7F2DDF5B5}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1229_과제_TextRPG", "1229_과제_TextRPG\1229_과제_TextRPG.vcxproj", "{3917583C-0DF3-40CA-9EE9-F6D3E45C8CC5}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1129_과제_TextRPG", "1129_과제_TextRPG\1229_과제_TextRPG.vcxproj", "{3917583C-0DF3-40CA-9EE9-F6D3E45C8CC5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TextRPG", "1202_TextRPG\TextRPG\TextRPG.vcxproj", "{F4B2A4CA-5BA0-4B8A-BCCE-6617104992B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,14 @@ Global
 		{3917583C-0DF3-40CA-9EE9-F6D3E45C8CC5}.Release|x64.Build.0 = Release|x64
 		{3917583C-0DF3-40CA-9EE9-F6D3E45C8CC5}.Release|x86.ActiveCfg = Release|Win32
 		{3917583C-0DF3-40CA-9EE9-F6D3E45C8CC5}.Release|x86.Build.0 = Release|Win32
+		{F4B2A4CA-5BA0-4B8A-BCCE-6617104992B6}.Debug|x64.ActiveCfg = Debug|x64
+		{F4B2A4CA-5BA0-4B8A-BCCE-6617104992B6}.Debug|x64.Build.0 = Debug|x64
+		{F4B2A4CA-5BA0-4B8A-BCCE-6617104992B6}.Debug|x86.ActiveCfg = Debug|Win32
+		{F4B2A4CA-5BA0-4B8A-BCCE-6617104992B6}.Debug|x86.Build.0 = Debug|Win32
+		{F4B2A4CA-5BA0-4B8A-BCCE-6617104992B6}.Release|x64.ActiveCfg = Release|x64
+		{F4B2A4CA-5BA0-4B8A-BCCE-6617104992B6}.Release|x64.Build.0 = Release|x64
+		{F4B2A4CA-5BA0-4B8A-BCCE-6617104992B6}.Release|x86.ActiveCfg = Release|Win32
+		{F4B2A4CA-5BA0-4B8A-BCCE-6617104992B6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
