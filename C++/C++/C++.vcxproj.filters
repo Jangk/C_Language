@@ -456,7 +456,7 @@
     <ClCompile Include="학원수업\C++\191202_2.cpp">
       <Filter>소스 파일\학원수업\C++</Filter>
     </ClCompile>
-    <ClCompile Include="학원수업\C++\191202_3.cpp">
+    <ClCompile Include="학원수업\C++\191202_3_네오풀 기출문제.cpp">
       <Filter>소스 파일\학원수업\C++</Filter>
     </ClCompile>
   </ItemGroup>
