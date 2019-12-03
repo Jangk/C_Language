@@ -95,8 +95,6 @@ vector<int>* MergeSortFunc(vector<int>* vecList)
 	}
 	left  = *(MergeSortFunc(&left ));
 	right = *(MergeSortFunc(&right));
-	TestPrint(&left);
-	TestPrint(&right);
 
 
 	// ------------------------------------------------- 합병 과정
@@ -110,14 +108,12 @@ vector<int>* MergeSortFunc(vector<int>* vecList)
 		if (left[iLeftCount] < right[iRightCount])
 		{
 			vecList->push_back(left[iLeftCount]);
-			cout << left[iLeftCount] << " ";
 			++iLeftCount;
 			continue;
 		}
 		else
 		{
 			vecList->push_back(right[iRightCount]);
-			cout << right[iRightCount] << " ";
 			++iRightCount;
 		}
 		if (iRightCount >= right.size())
@@ -128,22 +124,13 @@ vector<int>* MergeSortFunc(vector<int>* vecList)
 	if (left.size() != iLeftCount)
 	{
 		for (int i = iLeftCount; i < left.size(); ++i)
-		{
-			cout << left[i]<< " ";
 			vecList->push_back(left[i]);
-		}
 	}
-	if (right.size() != iRightCount)
-	{
+	else if (right.size() != iRightCount)
+	{	// 만약 값이 잘 안나오면 else if를 if로 바꿀 것 ( 연산 수 줄일려고 else if 씀)
 		for (int i = iRightCount; i < right.size(); ++i)
-		{
-			cout << right[i];
 			vecList->push_back(right[i]);
-		}
 	}
-
-	cout << endl<<"vecList:";
-	TestPrint(vecList);
 	return vecList;
 }
 
@@ -154,5 +141,3 @@ void TestPrint(vector<int>* vec)
 		cout << *it << " ";
 	cout << endl;
 }
-
-
