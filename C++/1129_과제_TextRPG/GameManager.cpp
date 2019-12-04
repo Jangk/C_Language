@@ -1,3 +1,4 @@
+#include "..\1203_과제_TextRPG_상속\GameManager.h"
 #include "GameManager.h"
 
 
@@ -49,11 +50,8 @@ void GameManager::Battle(int iMonsterLevel)
 void GameManager::Save()
 {
 	FILE *fp = nullptr;
-	errno_t err = fopen_s(&fp, "../textRPG_SaveFile.txt", "wb");
-	if (err == 0)
-		fwrite(&m_CPlayer, sizeof(Character), 1, fp);
-	else
-		cout << "쓰기 실패" << endl;
+	fopen_s(&fp, "../textRPG_SaveFile.txt", "wb");
+	fwrite(&m_CPlayer, sizeof(Character), 1, fp);
 	fclose(fp);
 }
 
@@ -119,6 +117,10 @@ void GameManager::Update()
 			return;
 		}
 	}
+}
+
+void GameManager::Release()
+{
 }
 
 

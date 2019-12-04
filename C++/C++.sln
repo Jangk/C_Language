@@ -1,15 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++", "C++\C++.vcxproj", "{209C9255-4C32-4C3A-AE87-CBDE0003FCDC}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1128_과제_ScoreBoard", "1128_과제\1128_과제.vcxproj", "{6976A4DC-7519-4C76-A2D5-1C3E7DE42A31}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1129_과제_TextRPG", "1129_과제_TextRPG\1229_과제_TextRPG.vcxproj", "{3917583C-0DF3-40CA-9EE9-F6D3E45C8CC5}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "이전_과제_TextRPG", "1129_과제_TextRPG\1229_과제_TextRPG.vcxproj", "{3917583C-0DF3-40CA-9EE9-F6D3E45C8CC5}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataStructure", "DataStructure\DataStructure.vcxproj", "{87D4DCDA-3492-4CB8-B757-13FA7E4EE87A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1203_과제_TextRPG_상속", "1203_과제_TextRPG_상속\1203_과제_TextRPG_상속.vcxproj", "{0AA575F0-BD8E-4D5A-92FA-F23EF0612DF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,8 +53,19 @@ Global
 		{87D4DCDA-3492-4CB8-B757-13FA7E4EE87A}.Release|x64.Build.0 = Release|x64
 		{87D4DCDA-3492-4CB8-B757-13FA7E4EE87A}.Release|x86.ActiveCfg = Release|Win32
 		{87D4DCDA-3492-4CB8-B757-13FA7E4EE87A}.Release|x86.Build.0 = Release|Win32
+		{0AA575F0-BD8E-4D5A-92FA-F23EF0612DF9}.Debug|x64.ActiveCfg = Debug|x64
+		{0AA575F0-BD8E-4D5A-92FA-F23EF0612DF9}.Debug|x64.Build.0 = Debug|x64
+		{0AA575F0-BD8E-4D5A-92FA-F23EF0612DF9}.Debug|x86.ActiveCfg = Debug|Win32
+		{0AA575F0-BD8E-4D5A-92FA-F23EF0612DF9}.Debug|x86.Build.0 = Debug|Win32
+		{0AA575F0-BD8E-4D5A-92FA-F23EF0612DF9}.Release|x64.ActiveCfg = Release|x64
+		{0AA575F0-BD8E-4D5A-92FA-F23EF0612DF9}.Release|x64.Build.0 = Release|x64
+		{0AA575F0-BD8E-4D5A-92FA-F23EF0612DF9}.Release|x86.ActiveCfg = Release|Win32
+		{0AA575F0-BD8E-4D5A-92FA-F23EF0612DF9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70CFB122-4774-4A30-951E-4F0050720EA8}
 	EndGlobalSection
 EndGlobal

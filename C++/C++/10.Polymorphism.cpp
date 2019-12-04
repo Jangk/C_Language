@@ -44,11 +44,12 @@ void main()
 	// 정적 바인딩과 다르게 무늬가 아니라 속을 보고 판단한다. ( virtual)
 	// ex)
 	// 부모클래스에서 동적 바인딩할 함수명 앞에 virtual 키워드를 붙이고 위와 같은 코드를 실행하면
-	//Cat* cat = new Cat;		
-	//Animals* ani = new Cat;	
-	//cat->Talk();				// cat의 talk 실행
-	//ani->Talk();				// cat의 talk 실행
+	// Cat* cat = new Cat;		
+	// Animals* ani = new Cat;	
+	// cat->Talk();				// cat의 talk 실행
+	// ani->Talk();				// cat의 talk 실행
 	// virtual 키워드를 사용하면 런타임때 해당 값안에 무엇이 들어있는가(내용물)을 기준으로 실행
+	// virtual 함수는 4바이트를 할당댐(가상테이블떄문에 )
 
 
 	// 가상테이블(가상 함수 테이블)

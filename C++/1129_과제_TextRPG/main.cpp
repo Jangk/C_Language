@@ -13,7 +13,7 @@ void main()
 	switch (iVal)
 	{
 	case 1:
-		GameManager::GetInstance()->Init();				// 캐릭터 생성
+		GameManager::GetInstance()->Init();				// 캐릭터 생성ㅉ
 		break;
 
 	case 2:

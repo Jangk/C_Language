@@ -444,9 +444,6 @@
     <ClCompile Include="학원수업\C++\191128_2.cpp">
       <Filter>소스 파일\학원수업\C++</Filter>
     </ClCompile>
-    <ClCompile Include="1129과제.cpp">
-      <Filter>소스 파일\학원수업\내 코드</Filter>
-    </ClCompile>
     <ClCompile Include="학원수업\C++\191129.cpp">
       <Filter>소스 파일\학원수업\C++</Filter>
     </ClCompile>

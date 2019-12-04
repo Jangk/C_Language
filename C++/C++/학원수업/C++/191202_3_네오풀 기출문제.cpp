@@ -31,6 +31,7 @@ public:
 		strcpy_s(m_pName, m_iLen + 1, pName);
 	}
 
+
 	~CTest()
 	{
 		if (m_pName)
