@@ -110,7 +110,12 @@ void CGameManager::Save()
 	FILE* fp;
 	errno_t err = fopen_s(&fp, "../TextRPG.txt", "wb");
 	if (0 == err)
+	{
 		fwrite(m_Player, sizeof(CPlayer), 1, fp);
+		cout << "저장완료" << endl;
+		system("pause");
+	}
+	
 	fclose(fp);
 	
 }
@@ -122,7 +127,11 @@ void CGameManager::Load()
 	CPlayer temp; 
 	errno_t err = fopen_s(&fp, "../TextRPG.txt", "rb");
 	if (0 == err)
+	{
 		fread(&temp, sizeof(CPlayer), 1, fp);
+		cout << "불러오기" << endl;
+		system("pause");
+	}
 	*m_Player = *(dynamic_cast<CCharacter*>(&temp));
 	fclose(fp);
 }
