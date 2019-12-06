@@ -495,6 +495,9 @@
     <ClCompile Include="학원수업\C++\191204_3.cpp">
       <Filter>소스 파일\학원수업\C++</Filter>
     </ClCompile>
+    <ClCompile Include="1206숙제.cpp">
+      <Filter>소스 파일\학원수업\내 코드</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="26.----------keyword">
