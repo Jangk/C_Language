@@ -32,15 +32,12 @@ void main()
 	//문자열 초기화, 문자열끼리 더하기, cout<< 출력도 가능하게
 	MyClass test1("abc");
 	MyClass test2("def");
-	MyClass output1;
 
 
-	output1 = test1 +test2;
-	test2 += test1;
 	cout << "test1 : " << test1 << endl;
 	cout << "test2 : " << test2 << endl;
-	cout << "test1 +test2 : " << output1 << endl;
-	cout << "test2 += test1 : " << test2 << endl;
+	cout << "test1 +test2 : " << (test1 + test2) << endl;
+	cout << "test2 += test1 : " << (test2 += test1) << endl;
 	cout << "MyClass(''아무거나입력'') : " << MyClass("아무거나입력") << endl;
 	cout << "MyClass(test1) : " << MyClass(test1) << endl;
 }

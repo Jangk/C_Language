@@ -498,6 +498,33 @@
     <ClCompile Include="1206숙제.cpp">
       <Filter>소스 파일\학원수업\내 코드</Filter>
     </ClCompile>
+    <ClCompile Include="학원수업\C++\191206.cpp">
+      <Filter>소스 파일\학원수업\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C++\191206_2.cpp">
+      <Filter>소스 파일\학원수업\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C++\191206_3.cpp">
+      <Filter>소스 파일\학원수업\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C++\191206_4.cpp">
+      <Filter>소스 파일\학원수업\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C++\191206_5.cpp">
+      <Filter>소스 파일\학원수업\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C++\191206_6.cpp">
+      <Filter>소스 파일\학원수업\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C++\191206_7.cpp">
+      <Filter>소스 파일\학원수업\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C++\191209.cpp">
+      <Filter>소스 파일\학원수업\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C++\191209_2.cpp">
+      <Filter>소스 파일\학원수업\C++</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="26.----------keyword">
