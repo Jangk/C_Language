@@ -94,7 +94,7 @@ void main()
 	//// ##3. 템플릿 인수가 변수일 때
 	//CArray<int, 5>	arr1;
 	//CArray<int, 10>	arr2;
-	//CArray<int>	arr3;
+	//CArray<int>		arr3;
 
 
 

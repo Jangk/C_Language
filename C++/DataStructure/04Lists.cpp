@@ -22,6 +22,8 @@ public:
 	void PrintVal();
 	void SearchVal(int data);
 	void Release();
+
+
 public:
 	LinkedList();
 	~LinkedList();
@@ -33,11 +35,6 @@ void main()
 	LinkedList list;
 	int iSelector = 0;
 	int iInsert = 0;
-	list.InsertVal(1);
-	list.InsertVal(2);
-	list.InsertVal(3);
-	list.InsertVal(10);
-	list.InsertVal(7);
 	while (true)
 	{
 		system("cls");
@@ -86,10 +83,11 @@ void LinkedList::InsertVal(int data)
 		m_Head->next  = m_Head;
 		return;
 	}
+
+
 	auto iter = m_Head;
 	Node* newNode = new Node;
-	Node* temp;
-	newNode->iVal  = data;
+	newNode->iVal = data;
 
 
 	while (true)
@@ -103,9 +101,10 @@ void LinkedList::InsertVal(int data)
 		}
 		else if(iter->iVal < data && data <= iter->next->iVal)
 		{	// 이부분 연결 잘못됨 수정할것
-			iter->front->next = newNode;
+			Node* temp		  = iter->next;
+			iter->next		  = newNode;
 			newNode->front    = iter;
-			newNode->next	  = iter->next;
+			newNode->next	  = temp;
 			break;
 		}
 		iter = iter->next;
@@ -137,15 +136,15 @@ void LinkedList::PrintVal()
 void LinkedList::SearchVal(int data)
 {
 	Node* temp = nullptr;
-	auto iter = m_Head->next;
-	int iCount = 0;
+	auto iter  = m_Head->next;
+	int iCount = 1;
 	if (m_Head->iVal == data)
 	{
 		if (m_Head->next == m_Head->front)
 		{
 			isFirst = true;
 			m_Head->iVal = 0;
-			cout << ++iCount << "번째값 삭제(헤드)" << endl;
+			cout << iCount << "번째값 삭제(헤드)" << endl;
 			return;
 		}
 	}
