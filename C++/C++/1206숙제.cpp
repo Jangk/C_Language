@@ -96,7 +96,6 @@ MyClass& MyClass::operator+=(const MyClass& other)
 }
 
 
-
 //--------------------------생성자 라인.
 // 복사 생성자
 MyClass::MyClass(const MyClass& other)
