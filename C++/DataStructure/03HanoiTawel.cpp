@@ -8,7 +8,7 @@ private :
 	vector<int> A;
 	vector<int> B;
 	vector<int> C;
-	int m_iMax;
+	int m_iMax = 0;
 
 
 	void Init(int iVal)
@@ -58,7 +58,7 @@ private :
 		Render();
 	}
 	void Render()
-	{
+	{		
 		system("cls");
 		for (int i = m_iMax -1 ; i >= 0; --i)
 		{
@@ -72,7 +72,7 @@ private :
 				cout << C[i];
 			cout << "\t" << endl;
 		}
-		cout << "----------------------"<<endl;
+		cout << "----------------------" << endl;
 		system("pause");
 	}
 	void RecursiveHanoiTowel(int iVal, char A, char B, char C)
