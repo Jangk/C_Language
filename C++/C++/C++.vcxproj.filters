@@ -525,10 +525,39 @@
     <ClCompile Include="학원수업\C++\191209_2.cpp">
       <Filter>소스 파일\학원수업\C++</Filter>
     </ClCompile>
+    <ClCompile Include="학원수업\C++\191210.cpp">
+      <Filter>소스 파일\학원수업\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C++\191210_2.cpp">
+      <Filter>소스 파일\학원수업\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C++\191210Calc.cpp">
+      <Filter>소스 파일\학원수업\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C++\191210Point.cpp">
+      <Filter>소스 파일\학원수업\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C++\191211.cpp">
+      <Filter>소스 파일\학원수업\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C++\191211_2.cpp">
+      <Filter>소스 파일\학원수업\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="학원수업\C++\191211_3.cpp">
+      <Filter>소스 파일\학원수업\C++</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="26.----------keyword">
       <Filter>소스 파일\c++이론</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="학원수업\C++\191210Calc.h">
+      <Filter>소스 파일\학원수업\C++</Filter>
+    </ClInclude>
+    <ClInclude Include="학원수업\C++\191210Point.h">
+      <Filter>소스 파일\학원수업\C++</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

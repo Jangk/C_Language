@@ -11,9 +11,9 @@ int main()
 	int iSelector = 0;
 
 
-	cout << "학생 최대 : ";
-	cin >> iSelector;
-	scoreBoard.Init(iSelector);
+	//cout << "학생 최대 : ";
+	//cin >> iSelector;
+	//scoreBoard.Init(iSelector);
 
 	while (true)
 	{
