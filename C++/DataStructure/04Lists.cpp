@@ -72,7 +72,6 @@ void main()
 }
 
 
-
 void LinkedList::InsertVal(int data)
 {
 	if (isFirst)

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.29519.87
+VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++", "C++\C++.vcxproj", "{209C9255-4C32-4C3A-AE87-CBDE0003FCDC}"
 EndProject
@@ -10,6 +10,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1204_TextRPG", "1204_TextRPG\1204_TextRPG.vcxproj", "{6F1EDA33-5D8B-4D6A-A577-B38E6427242E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1210_ScoreBoard", "1210_ScoreBoard\1210_ScoreBoard.vcxproj", "{27A4023E-26AE-42CA-88A0-E45D0EF12CCE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1212_ScoreBoard_list", "1212_ScoreBoard_list\1212_ScoreBoard_list.vcxproj", "{DAE6BF2E-EBBD-4E84-A1DE-B339ADAEF6FA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1213_TextRPG_Inventory", "1213_TextRPG_Inventory\1213_TextRPG_Inventory.vcxproj", "{1AFD8525-1761-45F5-A5C3-3E1D8E7B79FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,22 @@ Global
 		{27A4023E-26AE-42CA-88A0-E45D0EF12CCE}.Release|x64.Build.0 = Release|x64
 		{27A4023E-26AE-42CA-88A0-E45D0EF12CCE}.Release|x86.ActiveCfg = Release|Win32
 		{27A4023E-26AE-42CA-88A0-E45D0EF12CCE}.Release|x86.Build.0 = Release|Win32
+		{DAE6BF2E-EBBD-4E84-A1DE-B339ADAEF6FA}.Debug|x64.ActiveCfg = Debug|x64
+		{DAE6BF2E-EBBD-4E84-A1DE-B339ADAEF6FA}.Debug|x64.Build.0 = Debug|x64
+		{DAE6BF2E-EBBD-4E84-A1DE-B339ADAEF6FA}.Debug|x86.ActiveCfg = Debug|Win32
+		{DAE6BF2E-EBBD-4E84-A1DE-B339ADAEF6FA}.Debug|x86.Build.0 = Debug|Win32
+		{DAE6BF2E-EBBD-4E84-A1DE-B339ADAEF6FA}.Release|x64.ActiveCfg = Release|x64
+		{DAE6BF2E-EBBD-4E84-A1DE-B339ADAEF6FA}.Release|x64.Build.0 = Release|x64
+		{DAE6BF2E-EBBD-4E84-A1DE-B339ADAEF6FA}.Release|x86.ActiveCfg = Release|Win32
+		{DAE6BF2E-EBBD-4E84-A1DE-B339ADAEF6FA}.Release|x86.Build.0 = Release|Win32
+		{1AFD8525-1761-45F5-A5C3-3E1D8E7B79FC}.Debug|x64.ActiveCfg = Debug|x64
+		{1AFD8525-1761-45F5-A5C3-3E1D8E7B79FC}.Debug|x64.Build.0 = Debug|x64
+		{1AFD8525-1761-45F5-A5C3-3E1D8E7B79FC}.Debug|x86.ActiveCfg = Debug|Win32
+		{1AFD8525-1761-45F5-A5C3-3E1D8E7B79FC}.Debug|x86.Build.0 = Debug|Win32
+		{1AFD8525-1761-45F5-A5C3-3E1D8E7B79FC}.Release|x64.ActiveCfg = Release|x64
+		{1AFD8525-1761-45F5-A5C3-3E1D8E7B79FC}.Release|x64.Build.0 = Release|x64
+		{1AFD8525-1761-45F5-A5C3-3E1D8E7B79FC}.Release|x86.ActiveCfg = Release|Win32
+		{1AFD8525-1761-45F5-A5C3-3E1D8E7B79FC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -10,7 +10,7 @@ public :
 	void Render();
 	void operator=(const CStudent& other );
 
-public :
+public :  
 	CStudent();
 	~CStudent();
 private:
