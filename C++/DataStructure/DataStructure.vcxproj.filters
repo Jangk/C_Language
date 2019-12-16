@@ -30,5 +30,8 @@
     <ClCompile Include="05.StackCalculator.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="06.Queue.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

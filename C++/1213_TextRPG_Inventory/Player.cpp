@@ -65,11 +65,75 @@ void Player::EquiItem(int index)
 	m_Item[itemInedx] = m_Inventory[index];
 }
 
+bool Player::Save()
+{
+	FILE* fpPlayer = nullptr;
+	FILE* fpItem = nullptr;
+	FILE* fpInventory = nullptr;
+	errno_t err = fopen_s(&fpPlayer, "../TextRPG_Player.txt", "wb");
+	// 예외처리 귀찮아서 그냥 함
+	fopen_s(&fpItem, "../TextRPG_Item.txt", "wb");
+	fopen_s(&fpInventory, "../TextRPG_Inventory.txt", "wb");
+	if (0 == err)
+	{
+		fwrite(&m_CharInfo, sizeof(m_CharInfo), 1, fpPlayer);
+		fwrite(&m_Item, sizeof(m_Item[0]), 4, fpPlayer);
+		fwrite(&m_Inventory, sizeof(m_Inventory), 1, fpPlayer);
+		cout << "저장완료" << endl;
+		system("pause");
+		fclose(fpPlayer);
+		fclose(fpItem);
+		fclose(fpInventory);
+		return true;
+	}
+	else
+	{
+		cout << "세이브 실패" << endl;
+		fclose(fpPlayer);
+		fclose(fpItem);
+		fclose(fpInventory);
+		return false;
+	}
+}
+
+bool Player::Load()
+{
+	FILE* fpPlayer = nullptr;
+	FILE* fpItem = nullptr;
+	FILE* fpInventory = nullptr;
+	errno_t err = fopen_s(&fpPlayer, "../TextRPG_Player.txt", "rb");
+	// 예외처리 귀찮아서 그냥 함
+	fopen_s(&fpItem, "../TextRPG_Item.txt", "rb");
+	fopen_s(&fpInventory, "../TextRPG_Inventory.txt", "rb");
+	if (0 == err)
+	{
+		fread(&m_CharInfo, sizeof(m_CharInfo), 1, fpPlayer);
+		fread(&m_Item, sizeof(m_Item[0]), 4, fpPlayer);
+		fread(&m_Inventory, sizeof(m_Inventory), 1, fpPlayer);
+		cout << "불러오기 성공" << endl;
+		fclose(fpPlayer);
+		fclose(fpItem);
+		fclose(fpInventory);
+		system("pause");
+		return true;
+	}
+	else
+	{
+		cout << "불러오기 실패" << endl;
+		return false;
+	}
+}
+
 
 void Player::Release()
 {
 	for (auto iter = m_Inventory.begin(); iter != m_Inventory.end(); ++iter)
 		SAFE_DELETE(*iter);
+}
+
+Player::Player()
+{
+	m_Inventory.reserve(100);			// 템창 최대치 100으로 지정.
 }
 
 Player::~Player()

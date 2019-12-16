@@ -12,7 +12,10 @@ public:
 	void SetMoney(int iMoney);
 	const vector<Item*>& GetInventory();
 	void EquiItem(int index);
+	bool Save();
+	bool Load();
 	void Release();
+	Player();
 	~Player();
 
 private:

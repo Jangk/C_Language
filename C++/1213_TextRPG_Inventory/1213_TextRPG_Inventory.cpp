@@ -7,6 +7,9 @@
 
 int main()
 {
+    // 세이브 로드 문제잇음. 
+    // 다음엔 인벤토리를 플레이어 말고 따로 관리할 것.
+    // ㅅㄱㄹ
     GameManager::GetInstance()->Init();
     GameManager::GetInstance()->CreateCharacter();
     GameManager::GetInstance()->RunGame();

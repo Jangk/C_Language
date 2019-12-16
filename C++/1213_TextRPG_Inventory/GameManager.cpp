@@ -49,8 +49,9 @@ void GameManager::CreateCharacter()
 			return;
 
 		case 4:
-			Load();
-			return;
+			if (Load())
+				return;
+			break;
 		}
 	}
 }
@@ -99,37 +100,16 @@ void GameManager::Release()
 }
 
 
-void GameManager::Save()
+bool GameManager::Save()
 {
-	FILE* fp = nullptr;
-	errno_t err = fopen_s(&fp, "../TextRPG.txt", "wb");
-	if (0 == err)
-	{
-		fwrite(&m_Player, sizeof(Player), 1, fp);
-		cout << "저장완료" << endl;
-		system("pause");
-		fclose(fp);
-	}
+	return dynamic_cast<Player*>(m_Player)->Save();
 
 }
 
 
-void GameManager::Load()
+bool GameManager::Load()
 {
-	FILE* fp = nullptr;
-	Player temp;
-	errno_t err = fopen_s(&fp, "../TextRPG.txt", "rb");
-	if (0 == err)
-	{
-		//fread(&temp, sizeof(Player), 1, fp);
-		//cout << "불러오기" << endl;
-		//system("pause");
-		fread_s(&temp, sizeof(Player), sizeof(Player), 1, fp);
-		cout << "불러오기" << endl;
-		m_Player = (dynamic_cast<Character*>(&temp));
-		fclose(fp);
-		system("pause");
-	}
+	return dynamic_cast<Player*>(m_Player)->Load();
 }
 
 

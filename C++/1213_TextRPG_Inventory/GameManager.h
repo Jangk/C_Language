@@ -11,8 +11,8 @@ public:
 	void CreateCharacter();
 	void RunGame();
 	void Release();
-	void Save();
-	void Load();
+	bool Save();
+	bool Load();
 public:
 	GameManager();
 	~GameManager();
