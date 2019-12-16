@@ -17,6 +17,7 @@ void GameManager::Init()
 {
 	m_Player = new Player;
 	m_Player->Init();
+	SceneManager::GetInstance()->Init(*m_Player);
 }
 
 
@@ -63,19 +64,22 @@ void GameManager::RunGame()
 		system("cls");
 		m_Player->Render();
 		cout << "메뉴를 선택해주세요" << endl;
-		cout << "1.던전\t2.상점\t3.인벤토리\t4.저장\t4.종료" << endl;
+		cout << "1.던전\t2.상점\t3.인벤토리\t4.저장\t5.종료" << endl;
 		cin >> iSelector;
 
 
 		switch (iSelector)
 		{
-		case 1:
+		case 1:       
+			SceneManager::GetInstance()->PlayScene(SceneType::Dungeon);
 			break;
 
 		case 2:
+			SceneManager::GetInstance()->PlayScene(SceneType::Shop);
 			break;
 
 		case 3:
+			SceneManager::GetInstance()->PlayScene(SceneType::Inventory);
 			break;
 		
 		case 4:
@@ -97,37 +101,41 @@ void GameManager::Release()
 
 void GameManager::Save()
 {
-	FILE* fp;
+	FILE* fp = nullptr;
 	errno_t err = fopen_s(&fp, "../TextRPG.txt", "wb");
 	if (0 == err)
 	{
-		fwrite(m_Player, sizeof(Player), 1, fp);
+		fwrite(&m_Player, sizeof(Player), 1, fp);
 		cout << "저장완료" << endl;
 		system("pause");
+		fclose(fp);
 	}
 
-	fclose(fp);
 }
 
 
 void GameManager::Load()
 {
-	FILE* fp;
+	FILE* fp = nullptr;
 	Player temp;
 	errno_t err = fopen_s(&fp, "../TextRPG.txt", "rb");
 	if (0 == err)
 	{
-		fread(&temp, sizeof(Player), 1, fp);
+		//fread(&temp, sizeof(Player), 1, fp);
+		//cout << "불러오기" << endl;
+		//system("pause");
+		fread_s(&temp, sizeof(Player), sizeof(Player), 1, fp);
 		cout << "불러오기" << endl;
+		m_Player = (dynamic_cast<Character*>(&temp));
+		fclose(fp);
 		system("pause");
 	}
-	*m_Player = *(dynamic_cast<Character*>(&temp));
-	fclose(fp);
 }
 
 
 GameManager::GameManager()
 {
+	m_Player = nullptr;
 }
 
 

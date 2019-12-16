@@ -2,6 +2,14 @@
 #ifndef __STRUCT_H__
 #define __STRUCT_H__
 
+enum class SceneType
+{
+	Dungeon,
+	Shop,
+	Inventory,
+	None
+};
+
 enum class EquipmentType
 {
 	Weapon,
@@ -30,5 +38,6 @@ struct ItemInfo
 	int iAtt;
 	int iDef;
 	int iPrice;
+	EquipmentType ItemType;
 };
 #endif // !__STRUCT_H__

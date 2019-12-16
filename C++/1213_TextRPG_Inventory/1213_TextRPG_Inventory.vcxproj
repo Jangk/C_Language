@@ -149,7 +149,9 @@
   <ItemGroup>
     <ClCompile Include="1213_TextRPG_Inventory.cpp" />
     <ClCompile Include="Character.cpp" />
+    <ClCompile Include="Dungeon.cpp" />
     <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="Inventory.cpp" />
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="Monster.cpp" />
     <ClCompile Include="pch.cpp">
@@ -161,17 +163,21 @@
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="Shop.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Character.h" />
     <ClInclude Include="DEFINE.h" />
+    <ClInclude Include="Dungeon.h" />
     <ClInclude Include="GameManager.h" />
+    <ClInclude Include="Inventory.h" />
     <ClInclude Include="Item.h" />
     <ClInclude Include="Monster.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Scene.h" />
     <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="Shop.h" />
     <ClInclude Include="STRUCT.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

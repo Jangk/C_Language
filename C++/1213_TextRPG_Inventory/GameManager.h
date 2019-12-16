@@ -1,7 +1,7 @@
 #pragma once
 #ifndef __GAMEMANAGER_H__
 #define __GAMEMANAGER_H__
-
+#include "SceneManager.h"
 class Character;
 class GameManager
 {
@@ -19,5 +19,6 @@ public:
 private:
 	static GameManager* m_Instance;
 	Character* m_Player;
+	void* TestPtr;
 };
 #endif // !__GAMEMANAGER_H__
